@@ -30,7 +30,7 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       date: {
-        type: Sequelize.DATE
+        type: Sequelize.DATEONLY
       },
       sportId: {
         type: Sequelize.INTEGER,

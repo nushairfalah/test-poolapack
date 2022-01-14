@@ -21,7 +21,7 @@ module.exports = (sequelize, DataTypes) => {
     countryId: DataTypes.INTEGER,
     country_group: DataTypes.STRING,
     year: DataTypes.INTEGER,
-    date: DataTypes.DATE,
+    date: DataTypes.DATEONLY,
     sportId: DataTypes.INTEGER,
     gold: DataTypes.INTEGER,
     silver: DataTypes.INTEGER,
